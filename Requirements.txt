@@ -1,0 +1,7 @@
+Requirement:
+
+Current code loads all images into a big div.DisplayContainer and scroll it to show each image in div.Item. This logic works OK on PC but may crash when running on mobile devices.
+
+Please update the code to use only 2 div.Item to show images. This new way will save memory because there are only 2 images loaded at a time while it's still possible to perform scroll animation between them.
+
+Note: Please don't use CSS animation (i.e. transition). Please use the current Greensock javascript animation library. The current code already shows you how to do a very simple moving-to-left animation which is the only animation effect needed for this slide.

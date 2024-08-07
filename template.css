@@ -1,0 +1,24 @@
+html,
+body {
+    margin: 0;
+	padding: 0;
+	height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.DisplayContainer {
+	height: 100%;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	white-space: nowrap;
+}
+
+.Item {
+	height: 100%;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
